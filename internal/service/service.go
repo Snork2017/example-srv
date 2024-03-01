@@ -1,10 +1,12 @@
 package service
 
+type Storage interface {}
+
 type Service interface {
 }
 
 type ServiceBasic struct {
-	storage domain.Storage
+	storage Storage
 }
 
 // create business logic

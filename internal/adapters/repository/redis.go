@@ -1,5 +1,7 @@
 package examplestore
 
+type Storage interface {}
+
 type StorageRedis struct {
 	inner domain.Storage
 	// ...
