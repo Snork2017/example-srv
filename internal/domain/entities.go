@@ -6,6 +6,6 @@ package domain
 // Entities do not necessarily replicate the database structure.
 // Here we validate entities
 type ExampleData struct {
-	Field string 
-	Field2 string 
+	Field  string
+	Field2 string
 }
