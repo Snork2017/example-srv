@@ -1,5 +1,5 @@
 package service
 
-type Validator struct {}
+type Validator struct{}
 
 // create methods for validator

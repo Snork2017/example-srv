@@ -1,12 +1,11 @@
 package service
 
-type Storage interface {}
+import "github.com/Snork2017/example-srv/internal/domain"
 
-type Service interface {
-}
+type Service interface{}
 
 type ServiceBasic struct {
-	storage Storage
+	storage domain.Storage
 }
 
 // create business logic
