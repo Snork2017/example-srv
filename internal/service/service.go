@@ -1,6 +1,9 @@
-package app
+package service
 
 type Service interface {
+}
+
+type ServiceBasic struct {
 	storage domain.Storage
 }
 

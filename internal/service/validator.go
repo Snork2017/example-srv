@@ -1,4 +1,4 @@
-package examplesrv
+package service
 
 type Validator struct {}
 
