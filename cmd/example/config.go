@@ -7,8 +7,6 @@ import (
 )
 
 type Config struct {
-	// import examplestore.Config
-	// some usable configs for the example service.
 	Port string
 
 	GRPCConf handlers.Config
